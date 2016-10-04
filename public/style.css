@@ -1,0 +1,16 @@
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #CACFD2;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 50px;
+}
+
+.spacer
+{
+    margin-bottom: 15px;
+}

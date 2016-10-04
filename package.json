@@ -1,0 +1,26 @@
+{
+  "name": "UbootScriptCompiler",
+  "description": "An online script compiler for U-Boot",
+  "main": "index.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vfalanis/uboot-script-compiler.git"
+  },
+  "keywords": [
+    "uboot",
+    "compiler",
+    "scripts"
+  ],
+  "author": "Valentina Fernandez Alanis",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "shelljs": "^0.7.4"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}
